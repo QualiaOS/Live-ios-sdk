@@ -150,7 +150,7 @@ public struct LivePlayer<PVF: ProductCardViewFactory,
 				Color.black
 					.zIndex(0)
 				ImageBackground(url: viewModel.episode.previewImageUrl)
-					.frame(width: proxy.size.width ?? UIScreen.main.bounds.size.width)
+                    .frame(width: proxy.size.width)
 					.zIndex(1)
 				switch episode.status {
 				case .idle, .waitingRoom:
