@@ -12,7 +12,7 @@ let package = Package(
 		],
 		dependencies: [
 				.package(url: "https://github.com/freshOS/Networking", .exact("1.2.1")),
-				.package(url: "https://github.com/onevcat/Kingfisher", .upToNextMajor(from: "7.6.2"))
+				.package(url: "https://github.com/onevcat/Kingfisher", .upToNextMajor(from: "7.8.1"))
 		],
 		targets: [
 				.target( name: "Live", dependencies: [ "Networking" ]),
